@@ -232,7 +232,7 @@
 
     // Configuración del widget
     const CONFIG = {
-        apiUrl: window.CHAT_WIDGET_CONFIG?.apiUrl || 'https://tumrqxsqnmznlqeqwfgx.supabase.co/functions/v1/chat',
+        apiUrl: window.CHAT_WIDGET_CONFIG?.apiUrl || 'https://tumrqxsqnmznlqeqwfgx.supabase.co/functions/v1/shopify-chat',
         position: 'bottom-right',
         showOnPages: ['all'],
         hideOnPages: [],
@@ -452,15 +452,7 @@
                 },
                 body: JSON.stringify({
                     message: message,
-                    originalMessage: message,
-                    chatHistory: this.chatHistory,
-                    products: [],
-                    brandInfo: [],
-                    translationInfo: {
-                        wasTranslated: false,
-                        detectedLanguage: 'es'
-                    },
-                    source: 'shopify'
+                    chatHistory: this.chatHistory
                 })
             });
 
