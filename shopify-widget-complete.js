@@ -232,7 +232,7 @@
 
     // Configuración del widget
     const CONFIG = {
-        apiUrl: window.CHAT_WIDGET_CONFIG?.apiUrl || 'https://tumrqxsqnmznlqeqwfgx.supabase.co/functions/v1/shopify-chat',
+        apiUrl: window.CHAT_WIDGET_CONFIG?.apiUrl || 'https://tumrqxsqnmznlqeqwfgx.supabase.co/functions/v1/chat',
         position: 'bottom-right',
         showOnPages: ['all'],
         hideOnPages: [],
