@@ -8,7 +8,7 @@
     const widgetCSS = `
         .chat-widget-simple {
             position: fixed;
-            bottom: 20px;
+            bottom: 90px;
             right: 20px;
             z-index: 9999;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -46,7 +46,7 @@
 
         @media (max-width: 480px) {
             .chat-widget-simple {
-                bottom: 15px;
+                bottom: 85px;
                 right: 15px;
             }
             
